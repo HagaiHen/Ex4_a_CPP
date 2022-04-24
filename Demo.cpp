@@ -22,7 +22,6 @@ using namespace std;
 int main() {
 
 	Game game_1{};
-
 	/* This player drew the "Duke" card, his name is Moshe
 	and he is a player in game_1 */
 	Duke duke{game_1, "Moshe"};
@@ -32,6 +31,7 @@ int main() {
 	Contessa contessa{game_1, "Gilad"};
 
 	vector<string> players = game_1.players();
+
 
 	/*
 		prints:
