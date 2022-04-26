@@ -3,6 +3,7 @@ using namespace std;
 #include "Player.hpp"
 
 namespace coup {
+    
     void coup::Player::income() {
 
     }
@@ -16,7 +17,7 @@ namespace coup {
     void coup::Player::foreign_aid() {
 
     }
-    string role() {
+    string coup::Player::role() {
         string s;
         return s;
     }
